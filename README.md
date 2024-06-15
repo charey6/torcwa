@@ -62,7 +62,7 @@ $ pip install torcwa
 Updated features in 0.1.4
 ------------
 1. For S-parameters and sources, p-pol. and s-pol. notation is also available.
-   - There may be unexpected bugs. If S-paramter is greatly different when comparing with other simulations, or if there are other bugs, please report on issue tap or contact us.
+   - There may be unexpected bugs. If S-parameter is greatly different when comparing with other simulations, or if there are other bugs, please report on issue tap or contact us.
 
 2. When calculating the gradient of eigendecomposition, the default value of the broadening parameter (related to stabilization) is changed to 10^-10.
 
@@ -197,7 +197,7 @@ plt.colorbar()
 
 <br/>
 
-**3.** Generate and perform simulation (**Only get S-paramters** without electromagnetic field)
+**3.** Generate and perform simulation (**Only get S-parameters** without electromagnetic field)
 ```python
 order_N = 15
 order = [order_N,order_N]
@@ -254,7 +254,7 @@ txx = torch.cat(txx)
 		* direction (forward/backward)
 		* port (transmission/reflection)
 		* polarization (xx/xy/yx/yy)
-		* ref_order: Reference order to calculate S-paramters
+		* ref_order: Reference order to calculate S-parameters
 
 <br/>
 
